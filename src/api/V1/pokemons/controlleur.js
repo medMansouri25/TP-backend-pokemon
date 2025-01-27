@@ -1,5 +1,5 @@
 // controllers/pokemonController.js
-const pokedex = require('../pokedex.json');  // Importer le fichier pokedex.json
+const pokedex = require('../../../data/pokedex.json');  // Importer le fichier pokedex.json
 
 // Fonction qui retourne la liste des Pokémon
 const getAllPokemons = (req, res) => {
