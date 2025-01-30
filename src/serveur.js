@@ -11,4 +11,3 @@ app.get('/api/v1/pokemons/search', pokemonController.searchPokemons);
 app.get('/api/v1/pokemons/:id', pokemonController.getPokemonById);
 
 module.exports = app;
-
