@@ -1,4 +1,4 @@
-// serveur.js
+// app.js
 const app = require('./serveur');  // Importer l'application
 const PORT = process.env.PORT || 3002;  // Définir le port
 
